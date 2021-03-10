@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YBC网站</title>
+    <link rel="stylesheet" href="./css/reset.css">
+</head>
+<style>
+.template{
+    /* px固定像数单位   浏览器缩小放大的时候 它不会变化 */
+    /* rem 它会自动计算浏览器窗口的宽度从而来自己调整大小 */
+    position: relative;
+    width: 100%;
+    background-color: red;
+}
+.content{
+    position: relative;
+    width: 90%;
+    margin: 0 auto;
+    background-color: green;
+}
+.one{
+    position: relative;
+    width: 100%;
+    background-color: blue;
+    text-align: center;
+}
+.one-content{
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+    background-color: red;
+    margin: 0 auto;
+}
+.one-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    background-color: burlywood;
+}
+.one-div-two{
+    width: 0.8rem;
+    height: 0.8rem;
+    border-radius: 50%;
+    background-color: royalblue;
+}
+</style>
+<body>
+    <!-- 写页面的构思 -->
+    <!-- 最外层 -->
+    <div class="template">
+        <!-- 内容区 -->
+         <!-- YBC云通证 -->
+        <div class="one">
+            <p style="padding: 0.5rem 0;">U影iPad啊</p>
+            <div class="one-content">
+                <div>
+                    <div class="one-div">
+                        <div class="one-div-two">
+
+                        </div>
+                    </div>
+                    <p>YBS运通证</p>
+                </div>
+                <div>
+                    <div class="one-div">
+                    </div>
+                    <p>YBS运通证</p>
+                </div>
+                <div>
+                    <div class="one-div">
+                    </div>
+                    <p>YBS运通证</p>
+                </div>
+                <div>
+                    <div class="one-div">
+                    </div>
+                    <p>YBS运通证</p>
+                </div>
+            </div>
+        </div>
+        <!-- YBC下载 -->
+        <div class="two">
+                
+        </div>
+    </div>
+</body>
+<script src="./js/response.js"></script>
+</html>
